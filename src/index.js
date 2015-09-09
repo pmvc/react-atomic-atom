@@ -17,4 +17,6 @@ module.exports = {
     img: require('../ui/atoms/img'),
     a: require('../ui/atoms/a'),
     svg: require('../ui/atoms/svg'),
+    path: require('../ui/atoms/path'),
+    i: require('../ui/atoms/i'),
 }
