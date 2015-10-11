@@ -2,9 +2,9 @@ react atomic atom
 ===============
    * react atomic ui for atom 
    * GIT
-      * 
+      * https://github.com/pmvc/react-atomic-atom 
    * NPM
-      * 
+      * https://www.npmjs.com/package/react-atomic-atom 
 
 ## Example Usage
 Demo Url:
