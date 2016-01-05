@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Atomic design in React (atoms)",
   "main": "./src/index.js",
   "repository": "pmvc/react-atomic-atom",
@@ -9,11 +9,9 @@
   ],
   "author": "Hill <hill@kimo.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "react": "0.14.0",
-    "classnames": "*"
-  },
   "devDependencies": {
+    "react": "^0.14.3",
+    "classnames": "*",
     "webpack": "^1.4.5",
     "css-loader": "^0.9.0",
     "style-loader": "^0.8.1",
