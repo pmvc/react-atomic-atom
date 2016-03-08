@@ -19,4 +19,7 @@ export { default as Span } from '../ui/atoms/span';
 export { default as Svg } from '../ui/atoms/svg';
 export { default as Textarea } from '../ui/atoms/textarea';
 export { default as Ul } from '../ui/atoms/ul';
+export { default as Table } from '../ui/atoms/table';
+export { default as Th } from '../ui/atoms/th';
+export { default as Td } from '../ui/atoms/td';
 
