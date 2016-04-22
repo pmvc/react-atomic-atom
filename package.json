@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Atomic design in React (atoms)",
   "main": "./src/index.js",
   "repository": "pmvc/react-atomic-atom",
@@ -10,15 +10,7 @@
   "author": "Hill <hill@kimo.com>",
   "license": "MIT",
   "devDependencies": {
-    "react": "^0.14.3",
-    "classnames": "*",
-    "webpack": "^1.4.5",
-    "css-loader": "^0.9.0",
-    "style-loader": "^0.8.1",
-    "jsx-loader": "^0.12.0",
-    "html-loader": "0.2.3",
-    "file-loader": "^0.8.1",
-    "json-loader": "^0.5.1",
+    "react": "^15.0.1",
     "babel-core": "^5.x",
     "babel-loader": "^5.x"
   }
