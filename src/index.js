@@ -12,6 +12,7 @@ export { default as I } from '../ui/atoms/i';
 export { default as Img } from '../ui/atoms/img';
 export { default as Input } from '../ui/atoms/input';
 export { default as Li } from '../ui/atoms/li';
+export { default as Label } from '../ui/atoms/label';
 export { default as Nav } from '../ui/atoms/nav';
 export { default as Ol } from '../ui/atoms/ol';
 export { default as Path } from '../ui/atoms/path';
