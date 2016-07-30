@@ -18,6 +18,7 @@ export { default as Ol } from '../ui/atoms/ol';
 export { default as Path } from '../ui/atoms/path';
 export { default as Span } from '../ui/atoms/span';
 export { default as Svg } from '../ui/atoms/svg';
+export { default as Section } from '../ui/atoms/section';
 export { default as Textarea } from '../ui/atoms/textarea';
 export { default as Ul } from '../ui/atoms/ul';
 export { default as Table } from '../ui/atoms/table';

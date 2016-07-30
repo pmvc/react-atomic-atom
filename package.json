@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "Atomic design in React (atoms)",
   "main": "./build/src/index.js",
   "repository": "pmvc/react-atomic-atom",
