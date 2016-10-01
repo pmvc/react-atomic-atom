@@ -1,10 +1,4 @@
-import React, {Component} from 'react';
-export default class Td extends Component
-{
-    render()
-    {
-        return (
-            <td {...this.props}>{this.props.children}</td>
-        );
-    }   
-}
+import React from 'react';
+const Td = (props)=>
+    <td {...props}/>;
+export default Td;

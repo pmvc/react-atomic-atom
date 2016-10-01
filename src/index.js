@@ -1,6 +1,7 @@
 export { default as A } from '../ui/atoms/a';
 export { default as Button } from '../ui/atoms/button';
 export { default as Div } from '../ui/atoms/div';
+export { default as Dl } from '../ui/atoms/dl';
 export { default as Form } from '../ui/atoms/form';
 export { default as H1 } from '../ui/atoms/h1';
 export { default as H2 } from '../ui/atoms/h2';
