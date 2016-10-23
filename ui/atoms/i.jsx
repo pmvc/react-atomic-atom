@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'I',
-    render: function() {
-        return (
-            <i {...this.props}>{this.props.children}</i>
-        );
-    }
-});
+import React from 'react';
+const I = (props) => 
+    <i {...props} />
+export default I;

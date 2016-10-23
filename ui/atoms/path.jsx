@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'Path',
-    render: function() {
-        return (
-            <path {...this.props}>{this.props.children}</path>
-        );
-    }
-});
+import React from 'react';
+const Path = (props) => 
+    <path {...props} />
+export default Path;

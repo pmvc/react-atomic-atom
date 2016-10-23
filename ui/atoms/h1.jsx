@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'H1',
-    render: function() {
-        return (
-            <h1 {...this.props}>{this.props.children}</h1>
-        );
-    }
-});
+import React from 'react';
+const H1 = (props) => 
+    <h1 {...props} />
+export default H1;

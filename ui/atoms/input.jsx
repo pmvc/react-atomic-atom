@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'Input',
-    render: function() {
-        return (
-            <input {...this.props} />
-        );
-    }
-});
+import React from 'react';
+const Input = (props) => 
+    <input {...props} />
+export default Input;

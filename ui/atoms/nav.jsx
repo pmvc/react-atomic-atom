@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'Nav',
-    render: function() {
-        return (
-            <nav {...this.props}>{this.props.children}</nav>
-        );
-    }
-});
+import React from 'react';
+const Nav = (props) => 
+    <nav {...props} />
+export default Nav;

@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'Img',
-    render: function() {
-        return (
-            <img {...this.props} />
-        );
-    }
-});
+import React from 'react';
+const Img = (props) => 
+    <img {...props} />
+export default Img;

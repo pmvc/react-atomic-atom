@@ -1,9 +1,4 @@
-var React = require('react');
-module.exports = React.createClass({
-    displayName: 'UL',
-    render: function() {
-        return (
-            <ul {...this.props}>{this.props.children}</ul>
-        );
-    }
-});
+import React from 'react';
+const Ul = (props) => 
+    <ul {...props} />
+export default Ul;
