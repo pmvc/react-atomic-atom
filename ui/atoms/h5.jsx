@@ -1,4 +1,2 @@
-import React from 'react';
-const H5 = (props) => 
-    <h5 {...props} />
-export default H5;
+const base = require('../../src/base');
+module.exports = base('h5');

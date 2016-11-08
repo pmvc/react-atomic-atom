@@ -1,4 +1,2 @@
-import React from 'react';
-const Li = (props) => 
-    <li {...props} />
-export default Li;
+const base = require('../../src/base');
+module.exports = base('li');

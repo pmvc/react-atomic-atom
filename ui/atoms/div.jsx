@@ -1,4 +1,2 @@
-import React from 'react';
-const Div = (props) => 
-    <div {...props} />
-export default Div;
+const base = require('../../src/base');
+module.exports = base('div');

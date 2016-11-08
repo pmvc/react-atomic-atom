@@ -1,4 +1,2 @@
-import React from 'react';
-const Dl = (props)=>
-    <dl {...props}/>;
-export default Dl;
+const base = require('../../src/base');
+module.exports = base('dl');

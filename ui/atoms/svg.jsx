@@ -1,4 +1,2 @@
-import React from 'react';
-const Svg = (props) => 
-    <svg {...props} />
-export default Svg;
+const base = require('../../src/base');
+module.exports = base('svg');

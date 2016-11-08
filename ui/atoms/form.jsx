@@ -1,4 +1,2 @@
-import React from 'react';
-const Form = (props) => 
-    <form {...props} />
-export default Form;
+const base = require('../../src/base');
+module.exports = base('form');

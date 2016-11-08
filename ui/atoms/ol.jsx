@@ -1,4 +1,2 @@
-import React from 'react';
-const Ol = (props) => 
-    <ol {...props} />
-export default Ol;
+const base = require('../../src/base');
+module.exports = base('ol');

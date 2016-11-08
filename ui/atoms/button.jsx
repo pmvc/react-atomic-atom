@@ -1,4 +1,2 @@
-import React from 'react';
-const Button = (props) => 
-    <button {...props} />
-export default Button;
+const base = require('../../src/base');
+module.exports = base('button');

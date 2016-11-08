@@ -1,4 +1,2 @@
-import React from 'react';
-const Textarea = (props) => 
-    <textarea {...props} />
-export default Textarea;
+const base = require('../../src/base');
+module.exports = base('textarea');

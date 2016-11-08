@@ -1,5 +1,2 @@
-import React from 'react';
-const Label = (props) => (
-    <label {...props} />
-);
-export default Label;
+const base = require('../../src/base');
+module.exports = base('label');

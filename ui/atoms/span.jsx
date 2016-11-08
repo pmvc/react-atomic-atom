@@ -1,4 +1,2 @@
-import React from 'react';
-const Span = (props) => 
-    <span {...props} />
-export default Span;
+const base = require('../../src/base');
+module.exports = base('span');

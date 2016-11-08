@@ -1,4 +1,2 @@
-import React from 'react';
-const Img = (props) => 
-    <img {...props} />
-export default Img;
+const base = require('../../src/base');
+module.exports = base('img');

@@ -1,4 +1,2 @@
-import React from 'react';
-const Ul = (props) => 
-    <ul {...props} />
-export default Ul;
+const base = require('../../src/base');
+module.exports = base('ul');

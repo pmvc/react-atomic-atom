@@ -1,4 +1,2 @@
-import React from 'react';
-const Path = (props) => 
-    <path {...props} />
-export default Path;
+const base = require('../../src/base');
+module.exports = base('path');

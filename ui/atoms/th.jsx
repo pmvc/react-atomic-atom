@@ -1,4 +1,2 @@
-import React from 'react';
-const Th = (props)=>
-    <th {...props}/>;
-export default Th;
+const base = require('../../src/base');
+module.exports = base('th');

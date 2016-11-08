@@ -1,4 +1,2 @@
-import React from 'react';
-const Nav = (props) => 
-    <nav {...props} />
-export default Nav;
+const base = require('../../src/base');
+module.exports = base('nav');

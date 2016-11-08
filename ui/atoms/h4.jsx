@@ -1,4 +1,2 @@
-import React from 'react';
-const H4 = (props) => 
-    <h4 {...props} />
-export default H4;
+const base = require('../../src/base');
+module.exports = base('h4');

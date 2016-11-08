@@ -1,5 +1,2 @@
-import React from 'react';
-const Section = (props) => (
-    <section {...props} />
-);
-export default Section;
+const base = require('../../src/base');
+module.exports = base('section');

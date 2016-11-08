@@ -1,4 +1,2 @@
-import React from 'react';
-const I = (props) => 
-    <i {...props} />
-export default I;
+const base = require('../../src/base');
+module.exports = base('i');
