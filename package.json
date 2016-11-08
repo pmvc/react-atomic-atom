@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Atomic design in React (atoms)",
   "main": "./build/src/index.js",
-  "repository": "pmvc/react-atomic-atom",
+  "repository": "react-atomic/react-atomic-atom",
   "keywords": [
     "reactjs"
   ],

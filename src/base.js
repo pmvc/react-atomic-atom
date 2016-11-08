@@ -6,9 +6,7 @@ const Base = (name) => {
     const Atom = (props) => {
         let {refCb, ...others} = props;
         if (refCb) {
-            others.ref = (el) => {
-                refCb(el);
-            };
+            others.ref = refCb;
         }
         return React.createElement(name, others);
     }
