@@ -13,7 +13,7 @@ https://react-atomic-ui.js.org/
 ## Fantastic Tip
 ### refCB help get rid of findDOMNode
 Before:
-```
+```JS
 const Input = (props) =>
 {
     return <input />;
@@ -34,7 +34,7 @@ class MyInput extends Component
 ```
 
 After:
-```
+```JS
 const Input = (props) =>
 {
     let {refCb, ...others} = props;
