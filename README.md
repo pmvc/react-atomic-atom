@@ -28,7 +28,7 @@ class MyInput extends Component
 
   render()
   {
-      <Input ref={el=>this.el=el} />
+      return <Input ref={el=>this.el=el} />;
   }
 }
 ```
@@ -53,7 +53,7 @@ class MyInput extends Component
 
   render()
   {
-      <Input refCb={el=>this.el=el} />
+      return <Input refCb={el=>this.el=el} />;
   }
 }
 ```
