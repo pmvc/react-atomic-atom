@@ -10,6 +10,7 @@ export H4 from '../ui/atoms/h4';
 export H5 from '../ui/atoms/h5';
 export H6 from '../ui/atoms/h6';
 export I from '../ui/atoms/i';
+export Iframe from '../ui/atoms/iframe';
 export Img from '../ui/atoms/img';
 export Input from '../ui/atoms/input';
 export Label from '../ui/atoms/label';
