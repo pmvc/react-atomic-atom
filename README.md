@@ -57,3 +57,5 @@ class MyInput extends Component
   }
 }
 ```
+   * More refs https://facebook.github.io/react/docs/refs-and-the-dom.html
+
