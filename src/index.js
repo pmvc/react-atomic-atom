@@ -17,6 +17,7 @@ export Label from '../ui/atoms/label';
 export Li from '../ui/atoms/li';
 export Nav from '../ui/atoms/nav';
 export Ol from '../ui/atoms/ol';
+export P from '../ui/atoms/p';
 export Path from '../ui/atoms/path';
 export Section from '../ui/atoms/section';
 export Span from '../ui/atoms/span';
