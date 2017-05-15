@@ -21,6 +21,7 @@ export Nav from '../ui/atoms/nav';
 export Ol from '../ui/atoms/ol';
 export P from '../ui/atoms/p';
 export Path from '../ui/atoms/path';
+export Polygon from '../ui/atoms/polygon';
 export Rect from '../ui/atoms/rect';
 export Section from '../ui/atoms/section';
 export Span from '../ui/atoms/span';
