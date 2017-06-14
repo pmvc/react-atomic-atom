@@ -3,8 +3,7 @@
 import React from 'react';
 
 const Base = (name) => {
-    const Atom = (props) => {
-        let {refCb, ...others} = props;
+    const Atom = ({refCb, ...others}) => {
         if (refCb) {
             others.ref = refCb;
         }
