@@ -31,6 +31,7 @@ export Td from '../ui/atoms/td';
 export Text from '../ui/atoms/text';
 export Textarea from '../ui/atoms/textarea';
 export Th from '../ui/atoms/th';
+export Tr from '../ui/atoms/tr';
 export TSpan from '../ui/atoms/tspan';
 export Ul from '../ui/atoms/ul';
 
