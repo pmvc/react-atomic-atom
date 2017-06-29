@@ -1,4 +1,5 @@
 export A from '../ui/atoms/a';
+export Article from '../ui/atoms/article';
 export Button from '../ui/atoms/button';
 export Div from '../ui/atoms/div';
 export Dl from '../ui/atoms/dl';
@@ -10,6 +11,7 @@ export H3 from '../ui/atoms/h3';
 export H4 from '../ui/atoms/h4';
 export H5 from '../ui/atoms/h5';
 export H6 from '../ui/atoms/h6';
+export Header from '../ui/atoms/header';
 export I from '../ui/atoms/i';
 export Iframe from '../ui/atoms/iframe';
 export Img from '../ui/atoms/img';
