@@ -26,6 +26,7 @@ export Path from '../ui/atoms/path';
 export Polygon from '../ui/atoms/polygon';
 export Rect from '../ui/atoms/rect';
 export Section from '../ui/atoms/section';
+export Select from '../ui/atoms/select';
 export Span from '../ui/atoms/span';
 export Svg from '../ui/atoms/svg';
 export Table from '../ui/atoms/table';
