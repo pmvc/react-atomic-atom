@@ -3,7 +3,7 @@ export Article from '../ui/atoms/article';
 export Button from '../ui/atoms/button';
 export Div from '../ui/atoms/div';
 export Dl from '../ui/atoms/dl';
-export Footer from '../ui/atoms/form';
+export Footer from '../ui/atoms/footer';
 export Form from '../ui/atoms/form';
 export G from '../ui/atoms/g';
 export H1 from '../ui/atoms/h1';
