@@ -1,2 +1,2 @@
-const base = require('../../src/base');
-module.exports = base('article');
+const base = require('../../src/base')
+module.exports = base('article')
