@@ -1,2 +1,2 @@
-const base = require('../../src/base')
-module.exports = base('a')
+import base from '../../src/base';
+export default base('a');
