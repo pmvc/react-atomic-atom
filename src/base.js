@@ -1,12 +1,14 @@
-import {createElement} from 'react';
+import { createElement } from "react";
 
 const Base = name => {
-  const Atom = ({refCb, ...others}) => {
-    if (refCb) {
-      others.ref = refCb;
+  const Atom = props => {
+    if (props.refCb) {
+      props.ref = props.refCb;
+      delete props.refCb;
     }
-    return createElement(name, others);
+    return createElement(name, props);
   };
+  Atom.displayName = `ATOM (${name})`;
   return Atom;
 };
 
