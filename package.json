@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Atomic design in React (atoms)",
   "main": "./build/cjs/src/index.js",
   "module": "./build/es/src/index.js",
