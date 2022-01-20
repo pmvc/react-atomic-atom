@@ -1,10 +1,12 @@
-react atomic atom
+Reshow Atomic Atom (React Component)
 ===============
-   * react atomic ui for atom 
-   * GIT
-      * https://github.com/react-atomic/react-atomic-atom 
-   * NPM
-      * https://npm.im/react-atomic-atom 
+Atomic design in React (atom)
+
+## NPM
+https://www.npmjs.com/package/react-atomic-atom
+
+## GIT
+https://github.com/react-atomic/react-atomic-atom 
 
 ## Example Usage
 Demo Url:
