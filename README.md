@@ -2,15 +2,13 @@ Reshow Atomic Atom (React Component)
 ===============
 Atomic design in React (atom)
 
+* Live Demo: https://react-atomic-ui.js.org/
+
 ## NPM
 https://www.npmjs.com/package/react-atomic-atom
 
 ## GIT
 https://github.com/react-atomic/react-atomic-atom 
-
-## Example Usage
-Demo Url:
-https://react-atomic-ui.js.org/
 
 ## Fantastic Tip
 ### refCB help get rid of findDOMNode
