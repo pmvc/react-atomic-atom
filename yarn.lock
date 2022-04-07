@@ -3635,9 +3635,9 @@ reshow-runtime@*:
     reshow-constant "*"
 
 reshow-unit-dom@*:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/reshow-unit-dom/-/reshow-unit-dom-0.0.8.tgz#2eec70fd79bfc46b19f659b18184d6bed0626df5"
-  integrity sha512-1rs+CuAr64BPFcS6ZY1gf2Gw+HtYZO9gcofWlTfyXEDkFG4pSBfKW/GjFvBYR2rcVF3wZV2igXxqcdL7Fai1lg==
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/reshow-unit-dom/-/reshow-unit-dom-0.0.9.tgz#c079ddea4370a23822845d58adacca54542d91e1"
+  integrity sha512-i4Fvqs2r70F1PmUCWr3H4s99fwwByeL2ikKgG+ZHH+EQWeQK9IEWlsyqTlQXDgTVJHCWvW0EZvv7M8gVniRTVA==
   dependencies:
     chai "*"
     global-jsdom "*"
@@ -3651,9 +3651,9 @@ reshow-unit-dom@*:
     sinon "*"
 
 reshow-unit@*:
-  version "0.17.14"
-  resolved "https://registry.yarnpkg.com/reshow-unit/-/reshow-unit-0.17.14.tgz#fbf11a83e2928dbd7095c12da0e301631529445c"
-  integrity sha512-W/TUq/uD83KN2To7JjHzK/I9u66F7Kudw/0suIqc5BSo0eYV7IVqNGeJKaVV9Oubkc/nIsZBpIkIwYYZyY1bRA==
+  version "0.17.15"
+  resolved "https://registry.yarnpkg.com/reshow-unit/-/reshow-unit-0.17.15.tgz#57d35f01285ad70cc487479e4359468d132736ad"
+  integrity sha512-BoihzZRi0N2PfhWdHbldT43p2hq1A6w25Wi3uQVvWwO9p6WEZe5UVSmMMtXvc/AU8AVCgmfeNq2HJHfiWJzGKw==
   dependencies:
     "@testing-library/react" "^13.x"
     "@testing-library/user-event" "^14.x"
