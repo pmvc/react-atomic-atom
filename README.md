@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/react-atomic/react-atomic-atom/tree/main.svg?style=svg)](https://circleci.com/gh/react-atomic/react-atomic-atom/tree/main)
+
 Reshow Atomic Atom (React Component)
 ===============
 Atomic design in React (atom)
