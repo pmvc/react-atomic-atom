@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-atomic/react-atomic-atom"
@@ -11,11 +11,9 @@
   "exports": {
     "./babel.config": "./babel.config.js",
     ".": {
-      "node": {
-        "require": "./build/cjs/src/index.js",
-        "module": "./build/es/src/index.mjs",
-        "import": "./build/es/src/index.mjs"
-      }
+      "require": "./build/cjs/src/index.js",
+      "module": "./build/es/src/index.mjs",
+      "import": "./build/es/src/index.mjs"
     }
   },
   "keywords": [
@@ -47,6 +45,7 @@
     "babel-plugin-reshow-transform-runtime": "*",
     "babel-plugin-transform-react-pure-class-to-function": "1.0.1",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "reshow-constant": "*",
     "reshow-runtime": "*"
   },
   "devDependencies": {

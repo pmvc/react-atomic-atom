@@ -1,8 +1,9 @@
 import { createElement } from "react";
+import { HAS } from "reshow-constant";
 
 const Base = (name, create = createElement) => {
   const Atom = (props) => {
-    if (props.refCb) {
+    if (HAS(props, "refCb")) {
       const nextProps = { ...props, ref: props.refCb };
       delete nextProps.refCb;
       return create(name, nextProps);

@@ -1103,9 +1103,9 @@
     pretty-format "^27.0.2"
 
 "@testing-library/react@^13.x":
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-13.0.1.tgz#00d223e182923d341a9610590561fb9dd1324110"
-  integrity sha512-zeHx3PohYYp+4bTJwrixQY8zSBZjWUGwYc7OhD1EpWTHS92RleApLoP72NdwaWxOrM1P1Uezt3XvGf6t2XSWPQ==
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-13.1.1.tgz#6c1635e25acca8ca5be8ee3b19ad1391681c5846"
+  integrity sha512-8mirlAa0OKaUvnqnZF6MdAh2tReYA2KtWVw1PKvaF5EcCZqgK5pl8iF+3uW90JdG5Ua2c2c2E2wtLdaug3dsVg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.5.0"
@@ -2406,9 +2406,9 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.1:
     has-symbols "^1.0.1"
 
 get-object-value@*:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/get-object-value/-/get-object-value-0.3.2.tgz#c1c3bd1bdd00d58a005f42dc5a6e33a47e2850e2"
-  integrity sha512-ca1xzBvcF7G2BMAvKM2gBT5a57BOLnsccqvv3KkGRZ0XnUjhCsLC+Ng1JX5O1R5z96V9DM2HdRGZv7KTY77CIw==
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/get-object-value/-/get-object-value-0.4.0.tgz#264469f15ce929222896e56b03f81f7ebd848105"
+  integrity sha512-yZLdGMa8PYeOv4LLWCnbS8E5lbzWXvkZ3+eOb+422rrf1/D5mpHN9N2VSr/x72tGAROWCZPQSNaph4BYPzgtmg==
   dependencies:
     reshow-constant "*"
     reshow-runtime "*"
