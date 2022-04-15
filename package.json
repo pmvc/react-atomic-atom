@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-atomic/react-atomic-atom"
@@ -33,9 +33,13 @@
     "@babel/plugin-proposal-nullish-coalescing-operator": "*",
     "@babel/plugin-proposal-object-rest-spread": "*",
     "@babel/plugin-proposal-optional-chaining": "*",
+    "@babel/plugin-proposal-private-methods": "*",
+    "@babel/plugin-proposal-private-property-in-object": "*",
     "@babel/plugin-syntax-dynamic-import": "*",
+    "@babel/plugin-transform-arrow-functions": "*",
     "@babel/plugin-transform-object-assign": "*",
     "@babel/plugin-transform-react-constant-elements": "*",
+    "@babel/plugin-transform-spread": "*",
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
     "babel-plugin-add-import-extension": "1.6.0",
@@ -61,7 +65,7 @@
     "mochaFor": "mocha -r global-jsdom/register",
     "mocha": "npm run mochaFor -- 'build/es/**/__tests__/*.mjs'",
     "test": "npm run build && npm run mocha",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run test"
   },
   "files": [
     "babel.config.js",
