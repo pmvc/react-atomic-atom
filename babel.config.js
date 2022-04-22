@@ -14,8 +14,8 @@ module.exports = function (api, { esm = true } = {}) {
     "@babel/plugin-proposal-nullish-coalescing-operator",
     "@babel/plugin-proposal-optional-chaining",
     "@babel/plugin-proposal-object-rest-spread",
-    ["@babel/plugin-proposal-private-methods", { loose: false }],
-    ["@babel/plugin-proposal-private-property-in-object", { loose: false }],
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-proposal-private-property-in-object",
   ];
   const esPlugIns = [
     ...samePlugIns,
@@ -41,8 +41,6 @@ module.exports = function (api, { esm = true } = {}) {
       [
         "@babel/preset-env",
         {
-          corejs: 3,
-          useBuiltIns: "usage",
           loose: true,
           targets: ["last 2 versions", "ie >= 8"],
         },
