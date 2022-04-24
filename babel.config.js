@@ -5,11 +5,6 @@ module.exports = function (api, { esm = true } = {}) {
     "transform-react-pure-class-to-function",
     ["transform-react-remove-prop-types", { mode: "wrap" }],
     "@babel/plugin-syntax-dynamic-import",
-    "@babel/plugin-transform-classes",
-    "@babel/plugin-transform-arrow-functions",
-    "@babel/plugin-transform-object-assign",
-    "@babel/plugin-transform-react-constant-elements",
-    "@babel/plugin-transform-spread",
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-export-default-from",
     "@babel/plugin-proposal-nullish-coalescing-operator",
@@ -17,6 +12,16 @@ module.exports = function (api, { esm = true } = {}) {
     "@babel/plugin-proposal-object-rest-spread",
     "@babel/plugin-proposal-private-methods",
     "@babel/plugin-proposal-private-property-in-object",
+    /**
+     * transform need locate after proposal
+     * else will have Error: Missing class properties transform. 
+     * cause by @babel/plugin-transform-classes
+     */
+    "@babel/plugin-transform-classes",
+    "@babel/plugin-transform-arrow-functions",
+    "@babel/plugin-transform-object-assign",
+    "@babel/plugin-transform-react-constant-elements",
+    "@babel/plugin-transform-spread",
   ];
   const esPlugIns = [
     ...samePlugIns,
