@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "2.2.9",
+  "version": "2.2.10",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-atomic/react-atomic-atom"
@@ -37,6 +37,7 @@
     "@babel/plugin-proposal-private-property-in-object": "*",
     "@babel/plugin-syntax-dynamic-import": "*",
     "@babel/plugin-transform-arrow-functions": "*",
+    "@babel/plugin-transform-classes": "*",
     "@babel/plugin-transform-object-assign": "*",
     "@babel/plugin-transform-react-constant-elements": "*",
     "@babel/plugin-transform-spread": "*",

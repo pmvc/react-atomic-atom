@@ -5,6 +5,7 @@ module.exports = function (api, { esm = true } = {}) {
     "transform-react-pure-class-to-function",
     ["transform-react-remove-prop-types", { mode: "wrap" }],
     "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-classes",
     "@babel/plugin-transform-arrow-functions",
     "@babel/plugin-transform-object-assign",
     "@babel/plugin-transform-react-constant-elements",
