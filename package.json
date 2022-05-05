@@ -1,6 +1,6 @@
 {
   "name": "react-atomic-atom",
-  "version": "2.2.11",
+  "version": "2.2.12",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-atomic/react-atomic-atom"
@@ -43,9 +43,9 @@
     "@babel/plugin-transform-spread": "*",
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
-    "babel-plugin-add-import-extension": "1.6.0",
     "babel-plugin-add-module-exports": "1.0.4",
     "babel-plugin-dynamic-import-node": "2.3.3",
+    "babel-plugin-reshow-import-extension": "*",
     "babel-plugin-reshow-object-to-json-parse": "*",
     "babel-plugin-reshow-transform-runtime": "*",
     "babel-plugin-transform-react-pure-class-to-function": "1.0.1",

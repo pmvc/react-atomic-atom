@@ -14,7 +14,7 @@ module.exports = function (api, { esm = true } = {}) {
     "@babel/plugin-proposal-private-property-in-object",
     /**
      * transform need locate after proposal
-     * else will have Error: Missing class properties transform. 
+     * else will have Error: Missing class properties transform.
      * cause by @babel/plugin-transform-classes
      */
     "@babel/plugin-transform-classes",
@@ -23,7 +23,21 @@ module.exports = function (api, { esm = true } = {}) {
     "@babel/plugin-transform-react-constant-elements",
     "@babel/plugin-transform-spread",
   ];
-  const esPlugIns = [
+  const cjsPlugins = [
+    ...samePlugIns,
+    "add-module-exports",
+    "dynamic-import-node",
+    [
+      "reshow-transform-runtime",
+      {
+        // https://babel.dev/docs/en/babel-plugin-transform-runtime#regenerator
+        regenerator: true,
+        // https://github.com/react-atomic/reshow/tree/main/packages/reshow-app
+        version: "7.17.0",
+      },
+    ],
+  ];
+  const esPlugins = [
     ...samePlugIns,
     [
       "reshow-transform-runtime",
@@ -36,10 +50,15 @@ module.exports = function (api, { esm = true } = {}) {
       },
     ],
   ];
+
   if (esm) {
-    esPlugIns.push([
-      "add-import-extension",
-      { extension: "mjs", replace: true },
+    cjsPlugins.push([
+      "reshow-import-extension",
+      { extMapping: { "": ".js" } },
+    ]);
+    esPlugins.push([
+      "reshow-import-extension",
+      { extMapping: { "": ".mjs" } },
     ]);
   }
   const cjs = {
@@ -53,20 +72,7 @@ module.exports = function (api, { esm = true } = {}) {
       ],
       ["@babel/preset-react", { runtime: "automatic" }],
     ],
-    plugins: [
-      ...samePlugIns,
-      "add-module-exports",
-      "dynamic-import-node",
-      [
-        "reshow-transform-runtime",
-        {
-          // https://babel.dev/docs/en/babel-plugin-transform-runtime#regenerator
-          regenerator: true,
-          // https://github.com/react-atomic/reshow/tree/main/packages/reshow-app
-          version: "7.17.0",
-        },
-      ],
-    ],
+    plugins: cjsPlugins,
   };
   const es = {
     presets: [
@@ -80,7 +86,7 @@ module.exports = function (api, { esm = true } = {}) {
       ],
       ["@babel/preset-react", { runtime: "automatic" }],
     ],
-    plugins: esPlugIns,
+    plugins: esPlugins,
   };
   return { env: { cjs, es } };
 };
