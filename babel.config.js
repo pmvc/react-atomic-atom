@@ -1,4 +1,7 @@
-module.exports = function (api, { esm = true } = {}) {
+module.exports = function (
+  api,
+  { esm = true, extWhiteList = { ".example": ".example" } } = {}
+) {
   api.cache(true);
   const samePlugIns = [
     "reshow-object-to-json-parse",
@@ -54,11 +57,11 @@ module.exports = function (api, { esm = true } = {}) {
   if (esm) {
     cjsPlugins.push([
       "reshow-import-extension",
-      { extMapping: { "": ".js" } },
+      { extMapping: { ...extWhiteList, "": ".js" } },
     ]);
     esPlugins.push([
       "reshow-import-extension",
-      { extMapping: { "": ".mjs" } },
+      { extMapping: { ...extWhiteList, "": ".mjs" } },
     ]);
   }
   const cjs = {
