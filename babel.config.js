@@ -35,8 +35,8 @@ module.exports = function (
       {
         // https://babel.dev/docs/en/babel-plugin-transform-runtime#regenerator
         regenerator: true,
-        // https://github.com/react-atomic/reshow/tree/main/packages/reshow-app
-        version: "7.17.0",
+        // https://github.com/react-atomic/reshow/tree/main/packages/reshow-app#transform-runtime-how-to-set-reshow-transform-runtime-versions
+        version: "7.18.3",
       },
     ],
   ];
@@ -48,8 +48,8 @@ module.exports = function (
         // https://babel.dev/docs/en/babel-plugin-transform-runtime#regenerator
         regenerator: true,
         useESModules: true,
-        // https://github.com/react-atomic/reshow/tree/main/packages/reshow-app
-        version: "7.17.0",
+        // https://github.com/react-atomic/reshow/tree/main/packages/reshow-app#transform-runtime-how-to-set-reshow-transform-runtime-versions
+        version: "7.18.3",
       },
     ],
   ];
