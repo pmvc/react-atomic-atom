@@ -1,2 +1,2 @@
-import base from '../../src/base';
-export default base('button');
+import base from "../../src/base";
+export default base("button");

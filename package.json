@@ -1,21 +1,11 @@
 {
+  "version": "2.2.15",
   "name": "react-atomic-atom",
-  "version": "2.2.14",
   "repository": {
     "type": "git",
     "url": "https://github.com/react-atomic/react-atomic-atom"
   },
   "description": "Atomic design in React (atoms)",
-  "main": "./build/cjs/src/index.js",
-  "module": "./build/es/src/index.mjs",
-  "exports": {
-    "./babel.config": "./babel.config.js",
-    ".": {
-      "require": "./build/cjs/src/index.js",
-      "module": "./build/es/src/index.mjs",
-      "import": "./build/es/src/index.mjs"
-    }
-  },
   "keywords": [
     "react-atomic",
     "react-atomic-ui",
@@ -58,7 +48,18 @@
     "react-dom": "^18.x",
     "reshow-unit": "*"
   },
+  "exports": {
+    "./babel.config": "./babel.config.js",
+    ".": {
+      "require": "./build/cjs/src/index.js",
+      "module": "./build/es/src/index.mjs",
+      "import": "./build/es/src/index.mjs"
+    }
+  },
+  "main": "./build/cjs/src/index.js",
+  "module": "./build/es/src/index.mjs",
   "scripts": {
+    "format": "prettier-eslint --write 'src/**/*.js' 'ui/**/*.js*'",
     "clean": "find ./build -name '*.*' | xargs rm -rf",
     "build:cjs": "BABEL_ENV=cjs babel src -d build/cjs/src --ignore /**/__tests__ && BABEL_ENV=cjs babel ui -d build/cjs/ui --ignore /**/__tests__",
     "build:es": "BABEL_ENV=es babel src -d build/es/src --out-file-extension .mjs && BABEL_ENV=es babel ui -d build/es/ui --out-file-extension .mjs",

@@ -1,2 +1,2 @@
-import base from '../../src/base';
-export default base('line');
+import base from "../../src/base";
+export default base("line");
