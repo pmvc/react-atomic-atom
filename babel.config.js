@@ -84,7 +84,18 @@ module.exports = function (
         {
           modules: false,
           loose: true,
-          targets: ["last 2 versions", "ie >= 8"],
+          /**
+           * Deploying ES2015+ Code in Production Today
+           *
+           * https://philipwalton.com/articles/deploying-es2015-code-in-production-today/
+           */
+          targets: [
+            "Chrome >= 60",
+            "Safari >= 10.1",
+            "iOS >= 10.3",
+            "Firefox >= 54",
+            "Edge >= 15",
+          ],
         },
       ],
       ["@babel/preset-react", { runtime: "automatic" }],
