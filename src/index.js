@@ -1,3 +1,11 @@
+// @ts-check
+
+/**
+ * @typedef {object} ATOM
+ * @property {object} atoms
+ * @property {string} default
+ */
+
 const html = {
   atoms: {
     input: {
@@ -11,6 +19,6 @@ const html = {
       ui: false,
     },
   },
-  default: "div"
+  default: "div",
 };
 export { html };
