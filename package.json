@@ -6,7 +6,13 @@
     "url": "https://github.com/react-atomic/react-atomic-atom"
   },
   "description": "Atomic design in React (atoms)",
-  "keywords": ["react-atomic", "react-atomic-ui", "babel", "cjs", "mjs"],
+  "keywords": [
+    "react-atomic",
+    "react-atomic-ui",
+    "babel",
+    "cjs",
+    "mjs"
+  ],
   "author": "Hill <hill@kimo.com>",
   "license": "MIT",
   "dependencies": {
@@ -65,5 +71,11 @@
     "prepublishOnly": "npm run test"
   },
   "types": "./types/index.d.ts",
-  "files": ["types", "babel.config.js", "build", "package.json", "README.md"]
+  "files": [
+    "types",
+    "babel.config.js",
+    "build",
+    "package.json",
+    "README.md"
+  ]
 }
