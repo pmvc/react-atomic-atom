@@ -7,22 +7,23 @@ module.exports = function (
     "reshow-object-to-json-parse",
     "transform-react-pure-class-to-function",
     ["transform-react-remove-prop-types", { mode: "wrap" }],
-    "@babel/plugin-syntax-dynamic-import",
-    "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-export-default-from",
-    "@babel/plugin-proposal-nullish-coalescing-operator",
-    "@babel/plugin-proposal-optional-chaining",
-    "@babel/plugin-proposal-object-rest-spread",
-    "@babel/plugin-proposal-private-methods",
-    "@babel/plugin-proposal-private-property-in-object",
+    "@babel/plugin-syntax-dynamic-import",
     /**
-     * transform need locate after proposal
+     * plugin-transform-classes need locate after plugin-transform-class-properties
      * else will have Error: Missing class properties transform.
      * cause by @babel/plugin-transform-classes
      */
+    "@babel/plugin-transform-class-properties",
     "@babel/plugin-transform-classes",
+
     "@babel/plugin-transform-arrow-functions",
+    "@babel/plugin-transform-nullish-coalescing-operator",
     "@babel/plugin-transform-object-assign",
+    "@babel/plugin-transform-object-rest-spread",
+    "@babel/plugin-transform-optional-chaining",
+    "@babel/plugin-transform-private-methods",
+    "@babel/plugin-transform-private-property-in-object",
     "@babel/plugin-transform-react-constant-elements",
     "@babel/plugin-transform-spread",
   ];
