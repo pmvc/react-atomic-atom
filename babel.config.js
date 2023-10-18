@@ -19,6 +19,7 @@ module.exports = function (
 
     "@babel/plugin-transform-arrow-functions",
     "@babel/plugin-transform-nullish-coalescing-operator",
+    "@babel/plugin-transform-logical-assignment-operators",
     "@babel/plugin-transform-object-assign",
     "@babel/plugin-transform-object-rest-spread",
     "@babel/plugin-transform-optional-chaining",

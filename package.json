@@ -1,5 +1,5 @@
 {
-  "version": "4.0.0",
+  "version": "4.0.1",
   "name": "react-atomic-atom",
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "@babel/plugin-transform-arrow-functions": "*",
     "@babel/plugin-transform-class-properties": "*",
     "@babel/plugin-transform-classes": "*",
+    "@babel/plugin-transform-logical-assignment-operators": "*",
     "@babel/plugin-transform-nullish-coalescing-operator": "*",
     "@babel/plugin-transform-object-assign": "*",
     "@babel/plugin-transform-object-rest-spread": "*",
