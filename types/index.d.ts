@@ -5,18 +5,18 @@ export type ATOM = {
 export namespace html {
     export namespace atoms {
         namespace input {
-            const renderChildren: boolean;
+            let renderChildren: boolean;
         }
         namespace img {
-            const renderChildren_1: boolean;
+            let renderChildren_1: boolean;
             export { renderChildren_1 as renderChildren };
         }
         namespace path {
-            const renderChildren_2: boolean;
+            let renderChildren_2: boolean;
             export { renderChildren_2 as renderChildren };
-            export const ui: boolean;
+            export let ui: boolean;
         }
     }
-    const _default: string;
+    let _default: string;
     export { _default as default };
 }

@@ -1,5 +1,5 @@
 {
-  "version": "4.0.1",
+  "version": "4.0.2",
   "name": "react-atomic-atom",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   "author": "Hill <hill@kimo.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.23.0",
+    "@babel/cli": "^7.25.0",
+    "@babel/core": "^7.25.0",
     "@babel/plugin-proposal-export-default-from": "*",
     "@babel/plugin-syntax-dynamic-import": "*",
     "@babel/plugin-transform-arrow-functions": "*",
